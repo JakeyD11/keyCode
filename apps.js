@@ -1,5 +1,4 @@
 document.addEventListener("keydown", function (event) {
-    console.log("HELLO");
     let keyEvent = document.getElementById("keyEvent");
     keyEvent.textContent = `${event.which}`;
     let key = document.getElementById("eventKey");
@@ -8,5 +7,6 @@ document.addEventListener("keydown", function (event) {
     code.textContent = `${event.code}`;
     let which = document.getElementById("eventWhich");
     which.textContent = `${event.which}`;
+    
     
 })
